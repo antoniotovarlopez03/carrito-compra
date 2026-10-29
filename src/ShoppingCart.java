@@ -128,7 +128,7 @@ public class ShoppingCart {
      */
     public static void main(String[] args) {
 
-        CarritoCompra carrito = new CarritoCompra();
+        ShoppingCart carrito = new ShoppingCart();
 
         // Añadimos algunos productos de ejemplo
         carrito.agregarProducto("Teclado", 25.99, "Informática");
