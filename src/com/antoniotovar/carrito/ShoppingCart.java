@@ -120,7 +120,7 @@ public class ShoppingCart {
      * @return precio como texto
      */
     static String formatearPrecio(double precio) {
-        return String.valueOf(precio);
+        return String.format("%.2f", precio);
     }
 
     private static String formatearLinea(int numero, Producto p) {
