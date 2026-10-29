@@ -23,6 +23,12 @@ public class ShoppingCart {
     private final List<Producto> productos = new ArrayList<>();
 
     /**
+     * Crea un carrito vacío.
+     */
+    public ShoppingCart() {
+    }
+
+    /**
      * Añade un producto al carrito.
      *
      * @param nombre    nombre del producto
