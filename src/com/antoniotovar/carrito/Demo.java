@@ -1,9 +1,21 @@
 package com.antoniotovar.carrito;
 
+/**
+ * Programa de ejemplo que usa el carrito, separado de la propia clase {@link ShoppingCart}.
+ *
+ * @author Antonio Tovar López
+ * @version 2.0
+ */
 public final class Demo {
     private Demo() {
     }
 
+    /**
+     * Crea un carrito con cuatro productos, muestra el ticket y los totales,
+     * elimina un producto y vuelve a mostrar el ticket.
+     *
+     * @param args no se usan
+     */
     public static void main(String[] args) {
         ShoppingCart carrito = new ShoppingCart();
         carrito.agregarProducto("Teclado", 25.99, "Informática");
